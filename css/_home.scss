@@ -89,7 +89,10 @@
     }
 
    .col-md-4{
-       background:$lightBlue;max-width:280px;margin:0 auto ;color:white;padding:39px 30px;max-height:338px;position:relative;border-radius:4px;
+       background:$lightBlue;max-width:300px;margin:0 auto ;color:white;padding:39px 30px;max-height:350px;position:relative;border-radius:4px;
+   @media(max-width:1200px){
+       max-width: 280px;
+   }
        @media(max-width:1024px){
         padding: 40px 10px 20px;max-height:370px;min-width:280px;
     }
@@ -123,6 +126,7 @@
            }
        }
        p{
+           font-size:18px;
         @media(max-width:1200px){
             font-size:18px;
         }

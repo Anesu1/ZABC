@@ -565,13 +565,19 @@ header .btn a:last-child {
 
 .member .col-md-4 {
   background: #303960;
-  max-width: 280px;
+  max-width: 300px;
   margin: 0 auto;
   color: white;
   padding: 39px 30px;
-  max-height: 338px;
+  max-height: 350px;
   position: relative;
   border-radius: 4px;
+}
+
+@media (max-width: 1200px) {
+  .member .col-md-4 {
+    max-width: 280px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -634,6 +640,10 @@ header .btn a:last-child {
   .member .col-md-4 h3 {
     font-size: 25px;
   }
+}
+
+.member .col-md-4 p {
+  font-size: 18px;
 }
 
 @media (max-width: 1200px) {
